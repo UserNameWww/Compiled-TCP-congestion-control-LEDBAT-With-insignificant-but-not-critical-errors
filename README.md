@@ -6,6 +6,8 @@ The source code is taken from. https://github.com/Awanit512/TCP-LEDBAT
 Maybe someone will come in handy.
 
 Installation.
+Only Debian.
+If you want to use it on other "Distributions", you will have to compile it yourself.
 Download tcp_ledbat.ko or archive with it.
 Unpack.
 sudo cp tcp_ledbat.ko /lib/modules/$(uname -r)/kernel/net/ipv4
@@ -28,6 +30,8 @@ Compile LEDBAT Without errors, it did not work
 Может кому-то пригодится.
 
 Установка.
+Только для Debian.
+Если хотите использовать на других "Дистрибутивах", то прийдется компилировать самостоятельно.
 Скачать tcp_ledbat.ko или архив с ним.
 Распаковать.
 sudo cp tcp_ledbat.ko /lib/modules/$(uname -r)/kernel/net/ipv4
